@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM hendson 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Q.1 = Write the code to access element which is having id as text</h2>
+    <div id="text">hiii my name hemant</div>
+    <hr>
+    <h2>Q.2 = Write the code to access element which is having tag as h1</h2>
+    <h1> Welcome Madhav Consultancy Services</h1>
+    <hr>
+    <h2>Q.3 =  Write the code to access element which is having class as box</h2>
+    <div  class="box"> My first box</div>
+    <hr>
+    <h2>Q.4 = Change the heading from Hello to Hello World using DOM functions</h2>
+    <h3>Hello</h3>
+    <hr>
+    <h2>Q.5 = Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+    <div class="Replace">Hello World</div>
+    <button onclick="callme()">replace text</button>
+    <hr>
+    <h2>Q.6 = "Hello" Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions</h2>
+    <h1 id="heading">+hello</h1>
+    <hr>
+    <h2>Q.7 = Create three cards on HTML page and arrange them using flex property in row or horizontal direction and 
+        also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards 
+        arrangement should be changed to vertical direction.</h2>
+    <div class="parent">
+    <div class="a">1</div>
+    <div class="a">2</div>
+    <div class="a">3</div>
+    </div>   
+    <button id="h1">see changes</button> 
+    <h2>Q.8 = What's the difference between window vs document?</h2>
+    <div>
+        <table border="1" cellpadding='10'>
+            <th>Window</th>
+            <th>Document </th>
+            <tr>
+                <td>1. It represents the browser window in which you are seeing the content.</td>
+                <td>1. It represents the document loaded inside the window or browser.</td>
+            </tr>
+            <tr>
+                <td>2. The properties related to it are stored in the window object</td>
+                <td>2. The properties related to it are stored in the document object.</td>
+            </tr>
+
+            <tr>
+                <td>3. It is loaded before the document because of the window container document.</td>
+                <td>3. It is loaded after the loading window because the window contains a document.</td>
+            </tr>
+
+            <tr>
+                <td>4. The window is the global element for all objects, functions, etc.</td>
+                <td>4. It is the root element of the document object model.</td>
+            </tr>
+
+            <tr>
+                <td>5. It is an object of the browser.</td>
+                <td>5. It is an object of the window.</td>
+            </tr>
+
+            <tr>
+                <td>6. We can access document object properties inside the window. </td>
+                <td>6. We can not access windows objects properties inside the document.</td>
+            </tr>
+
+            <tr>
+                <td>7. Example: window.document.title will return the title of the document.</td>
+                <td>7. Example: document.title will return the title of the document</td>
+            </tr>
+
+            <tr>
+                <td>8. <pre>logically:
+            window:{
+               document:{properties}
+            }
+                
+                </pre></td>
+                <td>8. <pre>
+    logically:
+
+             document:{ properties}
+
+                </pre></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <hr>
+    <h2>Q.9 = Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+
+    <h3 id="runtime"></h3>
+    <hr>
+
+    <h2>Q.10 = link to play game</h2>
+    <div><a href="./index1.html"> play game zone</a></div>
+
+
+    <script src="./index.js"></script>
+
+    
+</body>
+</html>
